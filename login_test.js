@@ -17,6 +17,7 @@ Scenario('Login Test Example', async ({I}) => {
     I.waitForElement('.page-heading', 10)
     var title = await I.grabTitle()
     validacao.equal(title, 'Login - My Store')
+    //Teste
 
     I.see('CREATE AN ACCOUNT')
 });
