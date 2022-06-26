@@ -1,0 +1,16 @@
+{
+  "name": "automacao_codeceptjs-web",
+  "version": "1.0.0",
+  "description": "Projeto Automacao Web Codceptjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Clarinda",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^7.20.1",
+    "codeceptjs": "^3.3.3",
+    "webdriverio": "^7.20.2"
+  }
+}
